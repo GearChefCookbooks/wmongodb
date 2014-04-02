@@ -8,7 +8,7 @@ ENV['VAGRANT_DEFAULT_PROVIDER'] = 'lxc'
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.hostname = "jiffy-mongodb"
+  config.vm.hostname = "wmongodb"
   config.vm.box = "base"
   config.omnibus.chef_version = :latest
   config.vm.boot_timeout = 120
@@ -24,7 +24,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_recipe 'mongodb::10gen_repo'
     chef.add_recipe "mongodb::default"
     chef.add_recipe "monit::default"
-    chef.add_recipe 'jiffy_mongodb::monit' 
+    chef.add_recipe 'wmongodb::monit' 
   end
 
 end

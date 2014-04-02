@@ -1,6 +1,6 @@
 {
   "sources": {
-    "jiffy_mongodb": {
+    "wmongodb": {
       "path": "."
     },
     "mongodb": {

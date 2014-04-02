@@ -1,8 +1,8 @@
-name             'jiffy_mongodb'
+name             'wmongodb'
 maintainer       'YOUR_NAME'
 maintainer_email 'YOUR_EMAIL'
 license          'All rights reserved'
-description      'Installs/Configures jiffy_mongodb'
+description      'Installs/Configures wmongodb'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
 
