@@ -21,6 +21,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = ["cookbooks"]
+    chef.roles_path = ["roles"]
+    chef.add_role "mongodb_attr"
     chef.add_recipe 'mongodb::10gen_repo'
     chef.add_recipe "mongodb::default"
     chef.add_recipe "monit::default"

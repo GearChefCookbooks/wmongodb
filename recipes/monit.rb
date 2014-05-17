@@ -7,3 +7,13 @@ monit "mongodb" do
       "if 5 restarts within 5 cycles then timeout"
   ]
 end
+
+cookbook_file "/etc/monit/conf.d/mem_monit" do
+  source "mem_monit"
+  mode 0644
+  owner "root"
+  group "root"
+  notifies :restart, resources(:service => "monit")
+end
+
+
