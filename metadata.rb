@@ -11,6 +11,5 @@ version          '0.1.0'
 depends 'mongodb', '~> 0.15.0'
 depends 'monit'
 depends 'git'
-
-
+depends "apt"
 
