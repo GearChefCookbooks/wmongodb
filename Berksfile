@@ -1,9 +1,7 @@
-source "http://api.berkshelf.com"
+site :opscode
 
 metadata
 
-cookbook 'mongodb', github: 'GearChefCookbooks/chef-mongodb'
+cookbook 'mongodb', github: 'edelight/chef-mongodb'
 cookbook 'monit', git: 'https://github.com/axsuul/cookbook-monit'
-
-
 
