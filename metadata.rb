@@ -12,6 +12,5 @@ depends 'monit'
 depends 'git'
 
 #In Berksfile 
-depends "ruby_build"
-depends "rvm", "0.9.1"
+depends "winstall_ruby"
 

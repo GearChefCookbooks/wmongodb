@@ -1,5 +1,5 @@
-name "install_ruby"
-description "install_ruby"
+name "ruby_attr"
+description "ruby_attr"
 default_attributes(
    :ruby => {
        :build => {
