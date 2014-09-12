@@ -11,6 +11,3 @@ depends 'mongodb'
 depends 'monit'
 depends 'git'
 
-#In Berksfile 
-depends "winstall_ruby"
-

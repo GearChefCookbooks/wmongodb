@@ -1,0 +1,64 @@
+{
+  "sources": {
+    "wmongodb": {
+      "path": "."
+    },
+    "mongodb": {
+      "locked_version": "0.16.1",
+      "git": "git://github.com/GearChefCookbooks/chef-mongodb.git",
+      "ref": "a8e84018c0b54d6afb2fada74b530f99cfffebb1"
+    },
+    "winstall_ruby": {
+      "locked_version": "0.1.0",
+      "git": "git://github.com/GearChefCookbooks/winstall_ruby.git",
+      "ref": "33f9c11ddde3f72fffa7f7ade2817e4b5971d217"
+    },
+    "monit": {
+      "locked_version": "1.1.0",
+      "git": "https://github.com/axsuul/cookbook-monit",
+      "ref": "4d7a929098efbd0b5558e91a8e6b65f3a96a30be"
+    },
+    "git": {
+      "locked_version": "4.0.2"
+    },
+    "dmg": {
+      "locked_version": "2.2.0"
+    },
+    "build-essential": {
+      "locked_version": "2.0.4"
+    },
+    "windows": {
+      "locked_version": "1.31.0"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.6"
+    },
+    "runit": {
+      "locked_version": "1.5.10"
+    },
+    "yum": {
+      "locked_version": "3.2.2"
+    },
+    "yum-epel": {
+      "locked_version": "0.3.6"
+    },
+    "rvm": {
+      "locked_version": "0.9.2"
+    },
+    "java": {
+      "locked_version": "1.20.0"
+    },
+    "chef_gem": {
+      "locked_version": "0.1.0"
+    },
+    "apt": {
+      "locked_version": "2.4.0"
+    },
+    "python": {
+      "locked_version": "1.4.6"
+    },
+    "ruby_build": {
+      "locked_version": "0.8.0"
+    }
+  }
+}
