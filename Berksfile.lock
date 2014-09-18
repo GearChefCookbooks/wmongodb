@@ -6,7 +6,7 @@
     "mongodb": {
       "locked_version": "0.16.1",
       "git": "git://github.com/GearChefCookbooks/chef-mongodb.git",
-      "ref": "640872f5655cba7f544b52c43cfbbd3e148e64f8"
+      "ref": "ea9d33ea644110b5b1e423a19dcd2f503e1accb1"
     },
     "monit": {
       "locked_version": "1.1.0",
