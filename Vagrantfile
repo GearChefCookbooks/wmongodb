@@ -30,6 +30,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_recipe 'mongodb::install'
     #chef.add_recipe "mongodb::replicaset_yml"
     #chef.add_recipe "mongodb::replicaset_yml_onetime"
+    
   end
 
 end
