@@ -28,4 +28,7 @@ execute "apt-get-update" do
   command "apt-get update"
 end
 
+execute "install_locale" do
+  command "locale-gen en_US.UTF-8"
+end
 
