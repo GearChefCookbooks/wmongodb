@@ -3,8 +3,7 @@ description "mongoreplica_attr"
 default_attributes(
    :mongodb => {
        :config => { 
-          :replica_file => "/var/tmp/mongo.yml",
-          :replSet => "test"
+          :replica_file => "/opt/shared/configs/mongo.yml"
        },
        :ruby_gems => { 
           :mongo => "1.11.1",
@@ -12,3 +11,4 @@ default_attributes(
        }
    }
 )
+

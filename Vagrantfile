@@ -27,7 +27,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_role "mongodb_attr"
     chef.add_role "mongoreplica_attr"
     chef.add_recipe 'wmongodb::install_ruby'
-    chef.add_recipe 'mongodb::install'
+    chef.add_recipe 'mongodb::simple_install'
+    #chef.add_recipe 'mongodb::yml_configure_mongod_replica'
     #chef.add_recipe "mongodb::replicaset_yml"
     #chef.add_recipe "mongodb::replicaset_yml_onetime"
     

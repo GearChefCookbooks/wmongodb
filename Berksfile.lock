@@ -1,0 +1,47 @@
+{
+  "sources": {
+    "wmongodb": {
+      "path": "."
+    },
+    "mongodb": {
+      "locked_version": "0.16.1",
+      "git": "git://github.com/GearChefCookbooks/chef-mongodb.git",
+      "ref": "e2786dc9f3220fa3fb8f68aaf140f5d85cbc8236"
+    },
+    "monit": {
+      "locked_version": "1.1.0",
+      "git": "https://github.com/axsuul/cookbook-monit",
+      "ref": "4d7a929098efbd0b5558e91a8e6b65f3a96a30be"
+    },
+    "git": {
+      "locked_version": "4.0.2"
+    },
+    "dmg": {
+      "locked_version": "2.2.0"
+    },
+    "build-essential": {
+      "locked_version": "2.0.4"
+    },
+    "windows": {
+      "locked_version": "1.31.0"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.6"
+    },
+    "runit": {
+      "locked_version": "1.5.10"
+    },
+    "yum": {
+      "locked_version": "3.2.2"
+    },
+    "yum-epel": {
+      "locked_version": "0.3.6"
+    },
+    "apt": {
+      "locked_version": "2.4.0"
+    },
+    "python": {
+      "locked_version": "1.4.6"
+    }
+  }
+}
