@@ -3,7 +3,7 @@ description "mongoreplica_attr"
 default_attributes(
    :shared => {
        :config => { 
-          :mongo_replica_file => "/opt/shared/configs/mongo.yml"
+          :mongo_replica_file => "/opt/shared/configs/mongodb.yml"
        },
        :ruby_gems => { 
           :mongo => "1.11.1",
