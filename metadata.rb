@@ -11,3 +11,4 @@ depends 'mongodb'
 depends 'monit'
 depends 'git'
 
+depends 'iptables', '= 1.1.0'
