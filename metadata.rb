@@ -4,11 +4,9 @@ maintainer_email 'YOUR_EMAIL'
 license          'All rights reserved'
 description      'Installs/Configures wmongodb'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.1.7'
+version          '0.1.8'
 
 #depends 'mongodb', '~> 0.15.0'
 depends 'mongodb'
 depends 'monit'
 depends 'git'
-
-depends 'iptables', '= 1.1.0'
